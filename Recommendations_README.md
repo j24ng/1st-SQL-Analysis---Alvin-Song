@@ -2,7 +2,7 @@
 
   - It's recommended that the app created will have a price that matches the quality. This could incentivize the creation of a higher quality app, while also maximizing potential profits.
 
-2. Applications that supprot 10 to 30 languages have higher ratings that apps that support less or more.
+2. Applications that support 10 to 30 languages have higher ratings that apps that support less or more.
 
   - It's not about the quantity of languages that are supported, rather choosing the right languages that are supported.
     It is recommended that the app supports a decent amount of languages that are the most widely used. 
