@@ -1,3 +1,6 @@
+-- The appleStore_description was too big to fit into the querying tool I used, so smaller files were combined into one.
+
+
 create table appleStore_description_combined AS 
 
 SELECT * from appleStore_description1
@@ -70,8 +73,8 @@ group by language_bucket
 order by AvgRating DESC
 
 -- Checking apps with low ratings
-select prime_genre, avg(user_rating) as AvgRating
-from AppleStore
+SELECT prime_genre, avg(user_rating) as AvgRating
+FROM AppleStore
 group by prime_genre
 order by AvgRating ASC 
 limit 10 
@@ -79,15 +82,15 @@ limit 10
 -- Is there any correlation between the length of the app description and the user rating?
 
 select case 
-when length(b.app_desc) <500 then 'short'
+WHEN length(b.app_desc) <500 then 'short'
 WHEN length(b.app_desc) between 500 and 1000 then 'medium'
-else 'long'
-end as description_length, avg(a.user_rating) as avg_rating 
-from AppleStore as a 
-join appleStore_description_combined as b 
-oN a.id = b.id 
-group by description_length
-order by avg_rating desc 
+ELSE 'long'
+END AS description_length, avg(a.user_rating) as avg_rating 
+FROM AppleStore as a 
+JOIN appleStore_description_combined as b 
+ON a.id = b.id 
+GROUP BY description_length
+ORDER BY avg_rating desc 
 
 -- Checking the top rated apps for each genre AppleStore
 SELECT 
@@ -97,4 +100,4 @@ SELECT
 FROM ( select prime_genre, track_name, user_rating, RANK() OVER(PARTITION BY prime_genre order by user_rating desc,
                                                                 rating_count_tot desc) as rank
       from AppleStore) as a 
-where a.rank = 1
+WHERE a.rank = 1
