@@ -2,7 +2,7 @@
 
   - It's recommended that the app created will have a price that matches the quality. This could incentivize the creation of a higher quality app, while also maximizing potential profits.
 
-2. Applications that support 10 to 30 languages have higher ratings that apps that support less or more.
+2. Applications that support 10 to 30 languages have higher ratings tha apps that support less or more.
 
   - It's not about the quantity of languages that are supported, rather choosing the right languages that are supported.
     It is recommended that the app supports a decent amount of languages that are the most widely used. 
@@ -19,10 +19,10 @@
 
 5. The app should rate higher than a 3.5.
 
-  - According to the data, the average user rating across all the apps was 3.5. This can be used a metric to set a goal for the stakeholder, to create an app that would rate higher than average.
+  - According to the data, the average user rating across all apps was 3.5. This can be used as a goal metric for the developer, to create an app that would rate higher than average.
 
 6. Games and entertainment category has the most apps out of all categories.
 
-  - The stakeholder should avoid creating an app in this category. With the amount of apps in that category, it suggests a saturated market with very high competition, and high expectations from the users' end.
-  - However, this could also suggest a high demand in gaming apps.
-  - Not recommended, but could be possible with an original idea.
+  - The developer should avoid creating an app in this category. With the amount of apps in the category, it suggests a saturated market with very high competition.
+  - However, this could also suggest a high demand.
+  - Not recommended to enter this market, but could be successful with an original idea.
