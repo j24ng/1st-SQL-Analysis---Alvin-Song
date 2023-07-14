@@ -9,3 +9,4 @@ The data that was used in this analysis contains:
   etc. 
 
 There are two tables in this data set: AppleStore and appleStore_description 
+Data source: https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps
